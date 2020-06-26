@@ -1,0 +1,15 @@
+<div class="container-fluid main">
+<h1>WISHING YOU THE ENGINEERS WAY!!</h1>
+<div class='container-fluid bday-div'>
+  <img src="./assets/hb.png" alt="bday image" class="bday">
+</div> 
+  <div class="row">
+    <div class="col-md">
+      <div class="gallery">
+        <ng-container *ngFor = "let l of data; let i = index">
+            <figure class="gallery__item gallery__item--{{i+1}}">
+                <img src="./assets/{{l}}.jpg" alt="Gallery image {{i+1}}" class="gallery__img">
+            </figure>
+        </ng-container>
+   </div>
+</div>
